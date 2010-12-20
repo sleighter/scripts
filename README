@@ -1,0 +1,11 @@
+IF RUNNING UBUNTU:
+Checkout the dot-files/scripts repository to ~/bash-files, then
+add this code to your .profile file to load up the .bashrc in the git repo
+
+>>
+    if [ -f "$HOME/bash-files/.bashrc" ]; then
+        . "$HOME/bash-files/.bashrc"
+    else
+<<
+
+
