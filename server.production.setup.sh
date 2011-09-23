@@ -2,7 +2,7 @@
 apt-get install git-core curl zlib1g-dev libsqlite3-dev mysql-server build-essential libssl-dev libreadline5-dev checkinstall apache2 imagemagick libmysqlclient-dev
 
 #Get the latest rvm
-bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+bash < ( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
 
 #Add RVM to the shell as a function just in case you're not using the version controlled dot-files
 if [ "$HOME/.bashrc" ]; then
