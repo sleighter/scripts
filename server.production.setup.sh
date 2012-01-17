@@ -1,5 +1,5 @@
 #Get all of the RoR dependencies
-apt-get install git-core curl zlib1g-dev libsqlite3-dev mysql-server build-essential libssl-dev libreadline-gplv2-dev checkinstall apache2 imagemagick libmysqlclient-dev
+apt-get install git-core curl zlib1g-dev libsqlite3-dev mysql-server build-essential libssl-dev libreadline-gplv2-dev checkinstall apache2 imagemagick libmysqlclient-dev libpq-dev
 
 #Get the latest rvm
 bash < ( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
